@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\CoinGenerator.cs" />
     <Compile Include="Assets\LevelGenerator.cs" />
+    <Compile Include="Assets\Trap.cs" />
     <Compile Include="Assets\LedgeDetection.cs" />
     <Compile Include="Assets\ParralaxBackground.cs" />
     <Compile Include="Assets\Coin.cs" />

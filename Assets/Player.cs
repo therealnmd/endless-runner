@@ -116,6 +116,11 @@ public class Player : MonoBehaviour
         CheckInput();
     }
 
+    public void Damage()
+    {
+           StartCoroutine(Die()); 
+    }
+
     private IEnumerator Die()
     {
         isDead = true;
