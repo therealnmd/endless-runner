@@ -60,6 +60,7 @@
     <Analyzer Include="E:\Unity\2022.3.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DeadZoneTriggered.cs" />
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\CoinGenerator.cs" />
     <Compile Include="Assets\LevelGenerator.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets\LedgeDetection.cs" />
     <Compile Include="Assets\ParralaxBackground.cs" />
     <Compile Include="Assets\Coin.cs" />
+    <Compile Include="Assets\MovingTrap.cs" />
     <Compile Include="Assets\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
