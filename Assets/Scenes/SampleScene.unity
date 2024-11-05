@@ -2299,10 +2299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPart:
-  - {fileID: 7512183220241040998, guid: 278f0caa1e14be3459a0b5ff26f110ef, type: 3}
+  - {fileID: 7512183220241040998, guid: d8b54b5f844ad5f4096f88221f24c5e3, type: 3}
   nextPartPosition: {x: 0, y: 0, z: 0}
-  distanceToSpawn: 30
-  distanceToDelete: 30
+  distanceToSpawn: 50
+  distanceToDelete: 200
   player: {fileID: 1247495762}
 --- !u!4 &260677204
 Transform:
@@ -3852,7 +3852,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0898266, y: 1.4489408, z: -10.053067}
+  m_LocalPosition: {x: -2.0924816, y: 1.1781116, z: -10.053067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3903,6 +3903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526264410}
   - component: {fileID: 526264409}
+  - component: {fileID: 526264411}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -3958,13 +3959,28 @@ Transform:
   m_GameObject: {fileID: 526264408}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0898266, y: 1.4489408, z: -10.053067}
+  m_LocalPosition: {x: -2.0924654, y: -0.6310606, z: -10.053067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1953589547}
   m_Father: {fileID: 1946434434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &526264411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526264408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BoundingShape2D: {fileID: 1485195223}
+  m_Damping: 0.5
+  m_MaxWindowSize: -1
 --- !u!1 &528469026
 GameObject:
   m_ObjectHideFlags: 0
@@ -8178,7 +8194,7 @@ Transform:
   m_GameObject: {fileID: 1247495760}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.23, y: 5.68, z: 0}
+  m_LocalPosition: {x: 2.78, y: 3.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9233,13 +9249,14 @@ GameObject:
   - component: {fileID: 1485195221}
   - component: {fileID: 1485195220}
   - component: {fileID: 1485195222}
+  - component: {fileID: 1485195223}
   m_Layer: 0
   m_Name: Background_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1485195220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9323,6 +9340,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parralaxEffect: 1
+--- !u!60 &1485195223
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485195219}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.5, y: 0.5}
+      - {x: -1.5, y: -0.5}
+      - {x: 1.5, y: -0.5}
+      - {x: 1.5, y: 0.5}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1492476749
 GameObject:
   m_ObjectHideFlags: 0
@@ -12420,16 +12486,16 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.18
-  m_ScreenY: 0.58
+  m_ScreenY: 0.5799999
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
+  m_DeadZoneWidth: 0.01
+  m_DeadZoneHeight: 0.35
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.2
-  m_SoftZoneHeight: 0.44
+  m_SoftZoneHeight: 0.7
   m_BiasX: -0.28
-  m_BiasY: 0
+  m_BiasY: -0.5
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0

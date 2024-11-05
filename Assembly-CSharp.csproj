@@ -66,6 +66,7 @@
     <Compile Include="Assets\LevelGenerator.cs" />
     <Compile Include="Assets\Trap.cs" />
     <Compile Include="Assets\LedgeDetection.cs" />
+    <Compile Include="Assets\LimiterGizmos.cs" />
     <Compile Include="Assets\ParralaxBackground.cs" />
     <Compile Include="Assets\Coin.cs" />
     <Compile Include="Assets\MovingTrap.cs" />

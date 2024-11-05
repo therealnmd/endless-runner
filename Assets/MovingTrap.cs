@@ -14,14 +14,15 @@ public class MovingTrap : Trap
         base.OnTriggerEnter2D(collision);
         
     }
-    // Start is called before the first frame update
-    void Start()
+
+    protected override void Start()
     {
-        
+        base.Start();
+        transform.position = movePoint[0].position;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint[i].position, speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, movePoint[i].position) < .25f)

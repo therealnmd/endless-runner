@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "E:\\endless-runner-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|e:\\endless-runner-main\\assets\\deadzonetriggered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\deadzonetriggered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\coingenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\coingenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|e:\\endless-runner-main\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\movingtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\movingtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\coingenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\coingenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|e:\\endless-runner-main\\assets\\limitergizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\limitergizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|e:\\endless-runner-main\\assets\\deadzonetriggered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\deadzonetriggered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|E:\\endless-runner-main\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EC9567-0E3F-7CE9-3230-FDC74BBA3CB7}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "LimiterGizmos.cs",
+              "DocumentMoniker": "E:\\endless-runner-main\\Assets\\LimiterGizmos.cs",
+              "RelativeDocumentMoniker": "Assets\\LimiterGizmos.cs",
+              "ToolTip": "E:\\endless-runner-main\\Assets\\LimiterGizmos.cs",
+              "RelativeToolTip": "Assets\\LimiterGizmos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:58:37.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DeadZoneTriggered.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\DeadZoneTriggered.cs",
               "RelativeDocumentMoniker": "Assets\\DeadZoneTriggered.cs",
@@ -55,32 +72,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MovingTrap.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\MovingTrap.cs",
               "RelativeDocumentMoniker": "Assets\\MovingTrap.cs",
               "ToolTip": "E:\\endless-runner-main\\Assets\\MovingTrap.cs",
               "RelativeToolTip": "Assets\\MovingTrap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwCQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:35:02.167Z"
+              "WhenOpened": "2024-11-04T15:35:02.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Trap.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\Trap.cs",
               "RelativeDocumentMoniker": "Assets\\Trap.cs",
               "ToolTip": "E:\\endless-runner-main\\Assets\\Trap.cs",
               "RelativeToolTip": "Assets\\Trap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T03:38:23.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Player.cs",
@@ -88,37 +106,37 @@
               "RelativeToolTip": "Assets\\Player.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAIwIUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T03:39:31.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T03:39:31.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CoinGenerator.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\CoinGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\CoinGenerator.cs",
               "ToolTip": "E:\\endless-runner-main\\Assets\\CoinGenerator.cs",
               "RelativeToolTip": "Assets\\CoinGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T03:10:33.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Coin.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Coin.cs",
               "ToolTip": "E:\\endless-runner-main\\Assets\\Coin.cs",
               "RelativeToolTip": "Assets\\Coin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:35:10.996Z"
+              "WhenOpened": "2024-10-31T15:35:10.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\endless-runner-main\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
@@ -126,8 +144,7 @@
               "RelativeToolTip": "Assets\\GameManager.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:32:14.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T15:32:14.586Z"
             }
           ]
         }
